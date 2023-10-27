@@ -8,6 +8,7 @@ class Consumable:
     """
 
     value = field(default=False)
+    reset = field(default=False)
 
     def __bool__(self):
         """
@@ -15,5 +16,5 @@ class Consumable:
         """
 
         value = self.value
-        self.value = False
+        self.value = self.reset
         return value
