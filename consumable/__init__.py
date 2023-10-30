@@ -7,8 +7,8 @@ class Consumable:
     Bool that resets to False when used.
     """
 
-    value = field(default=False)
-    reset = field(default=False)
+    value: bool = field(default=False)
+    reset: bool = field(default=False)
 
     def __bool__(self):
         """
