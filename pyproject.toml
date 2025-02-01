@@ -2,7 +2,7 @@
 name = "consumable"
 version = "1.1.2"
 description = "Bool that resets on use."
-authors = ["taitep <arvid@h.se>"]
+authors = ["taitep <taitep@taitep.se>"]
 readme = "README.md"
 license = "GPL-3.0-only"
 
