@@ -1,3 +1,7 @@
+# Copyright (C) 2025 taitep <taitep@taitep.se>
+#
+# This file is licensed under the GNU GPL v3
+
 from dataclasses import dataclass, field
 
 
